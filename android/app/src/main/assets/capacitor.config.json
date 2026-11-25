@@ -1,0 +1,30 @@
+{
+	"appId": "com.astronova3d.tv",
+	"appName": "Astro Nova 3D",
+	"webDir": "dist",
+	"android": {
+		"backgroundColor": "#060b19",
+		"allowMixedContent": false,
+		"webContentsDebuggingEnabled": false
+	},
+	"server": {
+		"androidScheme": "https"
+	},
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 1500,
+			"launchAutoHide": true,
+			"backgroundColor": "#060b19",
+			"androidSplashResourceName": "splash",
+			"androidScaleType": "CENTER_CROP"
+		},
+		"StatusBar": {
+			"backgroundColor": "#060b19",
+			"style": "DARK"
+		},
+		"Keyboard": {
+			"resize": "body",
+			"style": "DARK"
+		}
+	}
+}
